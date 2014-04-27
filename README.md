@@ -1,3 +1,6 @@
 # Info
 
-This is my first test program with Kivy. It is mostly copied from the tutorial at http://kivy.org/docs/tutorials/pong.html, though it has a couple fixes.
+This is another test program with Kivy to test gameplay elements. It has a basic console output 
+with buttons for controls.
+
+The current game is a small strategic fight app.
