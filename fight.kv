@@ -1,0 +1,14 @@
+#:kivy 1.0.9
+
+<FightGame>:  
+    console: console
+    Label:
+        id: console 
+        font_size: dp(14)
+        mipmap: True
+        markup: True
+        text_size: (root.width * .90, root.height * .8)
+        center_x: root.width/2
+        center_y: root.height * ((1+.2+.01) / 2) 
+        valign: "bottom"
+        text: "Welcome to Fight"
