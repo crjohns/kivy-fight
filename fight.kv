@@ -12,3 +12,7 @@
         center_y: root.height * ((1+.2+.01) / 2) 
         valign: "bottom"
         text: "Welcome to Fight"
+    Button:
+        id: attack
+        text: "Attack"
+        on_press:  root.press_attack(args[0])
